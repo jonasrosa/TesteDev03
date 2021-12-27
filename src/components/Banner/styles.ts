@@ -13,7 +13,7 @@ const Container = styled.div`
 const Context = styled.div`
   width: 40%;
   height: 90%;
-  margin-left: 20px;
+
   display: flex;
   flex-direction: column;
   align-items: flex-start;

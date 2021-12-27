@@ -1,10 +1,12 @@
 import { GlobalStyle } from "./styles/global";
 import { Header } from "./components/Header";
 import { Banner } from "./components/Banner";
+import { Company } from "./components/Company";
+import { PostClient } from "./components/PostClient";
+
 {/*
 ;
 import { About } from "./components/About";
-import { PostClient } from "./components/PostClient";
 import { Offers } from "./components/Offers";
 import { Product } from "./components/Product";
 import { Testimonial } from "./components/Testimonial";
@@ -19,6 +21,8 @@ function App() {
       <GlobalStyle />
       <Header/>
       <Banner/>
+      <Company/>
+      <PostClient/>
       
     </>
   );
