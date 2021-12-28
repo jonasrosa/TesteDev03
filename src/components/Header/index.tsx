@@ -1,3 +1,4 @@
+import React,{useState} from 'react'
 import { HeaderBase, BoxLogo, Navigation } from "./styles";
 import logo from "../../assets/logo.svg";
 
@@ -10,6 +11,10 @@ const navigation = [
 ];
 
 const Header = () => {
+  const [headerTop, setHeaderTop] = useState(0);
+  const [headerHeight, setHeaderHeight] = useState(0);
+
+
   return (
     <HeaderBase>
       <BoxLogo>
@@ -20,7 +25,7 @@ const Header = () => {
           {navigation.map((data) => {
             return (
               <li key={data.id}>
-                <a href={"#" + data.href}>{data.href}</a>
+                <a href="">{data.href}</a>
               </li>
             );
           })}

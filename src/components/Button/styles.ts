@@ -25,6 +25,7 @@ const ButtonBase = styled.button<ButtonBaseProps>`
   margin: ${({ margin }) => margin};
   color: ${({ color }) => color};
   padding: 10px;
+  cursor: pointer;
   :hover {
     background-color: ${({ hoverBackground }) => hoverBackground};
     color: ${({ hoverColor }) => hoverColor};

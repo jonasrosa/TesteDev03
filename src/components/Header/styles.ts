@@ -4,11 +4,12 @@ import{colors, fontFamily} from "../../styles/tokey";
 const HeaderBase = styled.header`
   width: 100%;
   height: 12vh;
-  background: transparent;
+  background: ${colors.white};
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: fixed;
+  z-index: 100;
 `;
 const BoxLogo = styled.div`
   display: flex;

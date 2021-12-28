@@ -9,9 +9,12 @@ const colors={
     gray4:" #C4C4C4",
     gray5:"#BDBDBD",
     gray6:"#4F4F4F",
+    gray7:"#CCCCCC",
+    gray8:"#727272",
     golden:'#BE9667',
     background: '#E5E5E5',
     white:'#FFFFFF',
+    white2:'#F2F2F2',
     black:'#000000'
     
 }

@@ -3,17 +3,12 @@ import { Header } from "./components/Header";
 import { Banner } from "./components/Banner";
 import { Company } from "./components/Company";
 import { PostClient } from "./components/PostClient";
-
-{/*
-;
-import { About } from "./components/About";
+import {QualityServe} from "./components/QualityServe";
 import { Offers } from "./components/Offers";
 import { Product } from "./components/Product";
 import { Testimonial } from "./components/Testimonial";
 import { Contact } from "./components/Contact";
-import {Footer} from "./components/Footer";*/}
-
-
+import {Footer} from "./components/Footer";
 
 function App() {
   return (
@@ -21,8 +16,14 @@ function App() {
       <GlobalStyle />
       <Header/>
       <Banner/>
-      <Company/>
+      <Company />
       <PostClient/>
+      <QualityServe/>
+      <Offers/>
+      <Product/>
+      <Testimonial/>
+      <Contact/>
+      <Footer/>
       
     </>
   );
